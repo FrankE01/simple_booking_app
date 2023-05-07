@@ -1,0 +1,204 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Simple Booking App",
+    "dateExported": "2023-05-07T19:44:17.027Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "da7c0e3f-50c2-456c-824d-7b1d175a59d8",
+            "colId": "13ccd440-0948-48f5-b4d1-5c6ed7a2adea",
+            "containerId": "",
+            "name": "home",
+            "url": "http://localhost:3000/auth/login",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-05-06T17:29:59.176Z",
+            "modified": "2023-05-06T18:01:37.179Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"email@example.com\",\n  \"password\":\"password\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "25ff31da-b36f-4086-b057-c451b423ec86",
+            "colId": "13ccd440-0948-48f5-b4d1-5c6ed7a2adea",
+            "containerId": "",
+            "name": "getAllUsers",
+            "url": "http://localhost:3000/users",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-05-06T23:24:40.394Z",
+            "modified": "2023-05-07T15:08:06.438Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJlY2hlc2lzdWNjZXNzMDFAZ21haWwuY29tIiwicm9sZSI6InVzZXIiLCJyZWZyZXNoVG9rZW4iOiJleUpoYkdjaU9pSklVekkxTmlJc0luUjVjQ0k2SWtwWFZDSjkuZXlKcFpDSTZNU3dpWlcxaGFXd2lPaUpsWTJobGMybHpkV05qWlhOek1ERkFaMjFoYVd3dVkyOXRJaXdpY205c1pTSTZJblZ6WlhJaUxDSnBZWFFpT2pFMk9ETTBOekl3TkRWOS5RbllvRmJSSllxcVV6dE5YZGY5QzhGdktfNFJzYmhVOFdUX3QwN0RnbXUwIiwiaWF0IjoxNjgzNDcyMDQ1fQ.yAUzUQQ_yKHHlMGNx4XYkAorIorsHa7SGaRr3EVixiY"
+            },
+            "tests": []
+        },
+        {
+            "_id": "3a63a0bc-dbc0-4bb1-b8d7-3475481f305e",
+            "colId": "13ccd440-0948-48f5-b4d1-5c6ed7a2adea",
+            "containerId": "",
+            "name": "getAllMidwives",
+            "url": "http://localhost:3000/midwives",
+            "method": "GET",
+            "sortNum": 25000,
+            "created": "2023-05-07T14:19:49.844Z",
+            "modified": "2023-05-07T14:20:15.128Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJlY2hlc2lzdWNjZXNzMDFAZ21haWwuY29tIiwicmVmcmVzaFRva2VuIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBaQ0k2TVN3aVpXMWhhV3dpT2lKbFkyaGxjMmx6ZFdOalpYTnpNREZBWjIxaGFXd3VZMjl0SWl3aWFXRjBJam94Tmpnek5EWTFOell6ZlEuWjQwY0Rhd0FRUVpWWXdSWEc2R3oydGVKa2xMYURYOVA5bkxYTFhpdVBjcyIsImlhdCI6MTY4MzQ2NTc2M30.O95kSsx1rmVV9-R6NoToONt3aRHJwVXOrCgGXWVJFF0"
+            },
+            "tests": []
+        },
+        {
+            "_id": "cc7d57d9-961f-4e4e-9576-8fa34dcb30e3",
+            "colId": "13ccd440-0948-48f5-b4d1-5c6ed7a2adea",
+            "containerId": "",
+            "name": "getUserById",
+            "url": "http://localhost:3000/users/90",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-05-06T23:31:45.633Z",
+            "modified": "2023-05-06T23:33:01.786Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "db9c622d-3b79-4038-87a1-0dc7c965d91d",
+            "colId": "13ccd440-0948-48f5-b4d1-5c6ed7a2adea",
+            "containerId": "",
+            "name": "createNewUser",
+            "url": "http://localhost:3000/auth/useradd",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-05-06T23:38:30.383Z",
+            "modified": "2023-05-07T02:51:32.783Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\" : \"echesisuccess01@gmail.com\",\n  \"password\":\"1234\",\n  \"firstName\":\"Francis\",\n  \"lastName\":\"Echesi\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "5e38fb31-6000-4cf8-bb08-31aa19852209",
+            "colId": "13ccd440-0948-48f5-b4d1-5c6ed7a2adea",
+            "containerId": "",
+            "name": "createNewMidwife",
+            "url": "http://localhost:3000/auth/useradd",
+            "method": "POST",
+            "sortNum": 45000,
+            "created": "2023-05-07T14:19:25.855Z",
+            "modified": "2023-05-07T14:19:25.855Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\" : \"echesisuccess01@gmail.com\",\n  \"password\":\"1234\",\n  \"firstName\":\"Francis\",\n  \"lastName\":\"Echesi\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "df4a60f0-6fe5-4567-b101-7522b3941ef9",
+            "colId": "13ccd440-0948-48f5-b4d1-5c6ed7a2adea",
+            "containerId": "",
+            "name": "loginUser",
+            "url": "http://localhost:3000/auth/userlogin",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-05-07T01:40:27.444Z",
+            "modified": "2023-05-07T13:22:43.310Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"echesisuccess01@gmail.com\",\n  \"password\":\"1234\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6acf64d5-2d1b-449c-85dc-7ba859d01283",
+            "colId": "13ccd440-0948-48f5-b4d1-5c6ed7a2adea",
+            "containerId": "",
+            "name": "loginMidwife",
+            "url": "http://localhost:3000/auth/userlogin",
+            "method": "POST",
+            "sortNum": 55000,
+            "created": "2023-05-07T14:25:17.957Z",
+            "modified": "2023-05-07T14:25:17.957Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"echesisuccess01@gmail.com\",\n  \"password\":\"1234\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e628f2ca-d325-414a-96a1-a6f1ca3ad6b6",
+            "colId": "13ccd440-0948-48f5-b4d1-5c6ed7a2adea",
+            "containerId": "",
+            "name": "test",
+            "url": "http://localhost:3000/users/env",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-05-07T02:58:48.570Z",
+            "modified": "2023-05-07T02:59:07.238Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "95ad81b6-8dc3-4fb3-9c5f-6c7051cec624",
+            "colId": "13ccd440-0948-48f5-b4d1-5c6ed7a2adea",
+            "containerId": "",
+            "name": "logoutUser",
+            "url": "http://localhost:3000/auth/userlogout",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-05-07T05:11:13.205Z",
+            "modified": "2023-05-07T13:07:19.628Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJlY2hlc2lzdWNjZXNzMDFAZ21haWwuY29tIiwicmVmcmVzaFRva2VuIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBaQ0k2TVN3aVpXMWhhV3dpT2lKbFkyaGxjMmx6ZFdOalpYTnpNREZBWjIxaGFXd3VZMjl0SWl3aWFXRjBJam94Tmpnek5EWTBPREU1ZlEudlhuYVNOS29qTURoWi12RjJhM3VyeFprX2hzS0lObE9ja0FiOGYya2JONCIsImlhdCI6MTY4MzQ2NDgxOX0.N_mpN19mAet1y74NfwJqL6M7tn1QQxsfIO_s5V8JQEg"
+            },
+            "tests": []
+        },
+        {
+            "_id": "0263597e-fec7-4647-83b3-3aa2e3dcc46f",
+            "colId": "13ccd440-0948-48f5-b4d1-5c6ed7a2adea",
+            "containerId": "",
+            "name": "logoutMidwife",
+            "url": "http://localhost:3000/auth/userlogout",
+            "method": "GET",
+            "sortNum": 80000,
+            "created": "2023-05-07T14:25:41.547Z",
+            "modified": "2023-05-07T14:25:41.547Z",
+            "headers": [],
+            "params": [],
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJlY2hlc2lzdWNjZXNzMDFAZ21haWwuY29tIiwicmVmcmVzaFRva2VuIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBaQ0k2TVN3aVpXMWhhV3dpT2lKbFkyaGxjMmx6ZFdOalpYTnpNREZBWjIxaGFXd3VZMjl0SWl3aWFXRjBJam94Tmpnek5EWTBPREU1ZlEudlhuYVNOS29qTURoWi12RjJhM3VyeFprX2hzS0lObE9ja0FiOGYya2JONCIsImlhdCI6MTY4MzQ2NDgxOX0.N_mpN19mAet1y74NfwJqL6M7tn1QQxsfIO_s5V8JQEg"
+            },
+            "tests": []
+        }
+    ]
+}
